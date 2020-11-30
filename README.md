@@ -104,7 +104,7 @@ The apps target demographic is professional developers. This includes anyone who
 - Node
 - JSON Web Token
 
-<u>Database</u>:
+<u>**Database**</u>:
 
 - Mongoose
 - MongoDB
