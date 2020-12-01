@@ -1,6 +1,6 @@
 # </>DevConnect
 
-A MERN FullStack application assignment by Barandon Robertson & Jessica Sole
+A MERN FullStack application assignment by Brandon Robertson & Jessica Sole
 
 ## Purpose
 
