@@ -31,56 +31,61 @@ Gone are the days of the stereotyped socially awkward developer. Developers are 
 
 </details>
 
-- #### <u>User Authentication:</u>
+<details><summary>Navigation</summary>
 
-  - Register
-  - Login
-  - Logout
-  - Edit Profile ( if current user)
-  - Delete Profile ( if current user)
-  - Edit Posts ( if creator of post)
+1. When User is not logged in and registered the user can view:
 
-- #### <u>Navigation:</u>
+   - Developer Profiles
+   - Register Page
+   - Home Page
+   - Login Page
 
-  - When User is not logged in and registered the user can view:
-    - Developer Profiles
-    - Register Page
-    - Home Page
-    - Login Page
-  - When user is signed in they can:
-    - Create Posts
-    - Edit Profiles
-    - Delete Profiles
-    - Delete Posts
-    - Access Dashboard
+2. When user is signed in they can:
 
-- #### <u>Profiles Page</u>:
+   - Create Posts
+   - Edit Profiles
+   - Delete Profiles
+   - Delete Posts
+   - Access Dashboard
 
-  - user can view a list of developer profiles
-  - indivdual developer profile displays on click of profile
+</details>
 
-- #### <u>Posts</u>:
+<details><summary>Profiles Page</summary>
 
-  - Display most current developer posts
-  - Users can:
-    - Like a post
-    - Reply to a post
-    - Delete a post
-  - Most current replies are displayed on post
-  - User can leave a comment under the post
+    1. User can view a list of developer profiles
+    2. Indivdual developer profile displays on click of profile
 
+</details>
+
+<details><summary>Posts</summary>
+
+1. Display most current developer posts
+2. Users can:
+
+   - Like a post
+   - Reply to a post
+   - Delete a post
+
+3. Most current replies are displayed on post
+4. User can leave a comment under the post
+
+</details>
+
+<details><summary>Dashboard</summary>
+
+1. User can edit their info
+2. User can create a profile from this page
+
+</details>
   ​
+<details><summary>Nice to Have Features</summary>
 
-- #### <u>Dashboard</u>:
+1. Page to search and filter developers by name or skillset
+2. Add user as a friend or colleague
+3. Image Upload
+4. User can rate their experience working with a developer.
 
-  - user can edit their info or create a profile from this page
-
-- #### <u>Nice To Have Features</u>:
-
-  - Page to search and filter developers by name or skillset
-  - Add user as a friend or colleague
-  - Image Upload
-  - User can rate their experience working with a developer.
+</details>
 
 ## Target Audience
 
