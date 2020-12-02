@@ -82,7 +82,7 @@ The apps target demographic is professional developers. This includes anyone who
 | Occupation         | Professional Developer / Student Developer |
 | Primary Language   | English                                    |
 
-## Tech Stack
+## Tech Stack <summary>click to expand</summary>
 
 <details><summary>Click for Design</summary>
 
