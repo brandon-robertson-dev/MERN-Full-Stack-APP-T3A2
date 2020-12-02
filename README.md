@@ -130,10 +130,58 @@ The apps target demographic is professional developers. This includes anyone who
 
 ### App Coulour Pallete
 
-![](/images/Pallete-Gradient.png)
-![](/images/Colour-Pallete2.png)
+![Colour Gradient](/images/Pallete-Gradient.png)
+![Pallete](/images/Colour-Pallete2.png)
 
 ### User Stories
+
+![](/images/chester.png)
+
+##### Chester (Registered User)
+
+Chester is an experienced Developer that wants to connect with his fellow co-workers outside of work and his other developer friends in his spare time.
+
+###### As Chester I want:
+
+- To see what other users are posting and being able to interact with them by commenting and liking those posts.
+- Make my own posts that other users can interact with.
+- Connect to other users via private message or adding the user as a friend.
+- Edit my profile and update my email and/or password.
+- Delete my posts or comments from other users posts.
+- View my own profile and other users profiles.
+- Delete my profile, posts and user account if I no longer wish to be on the website anymore.
+- Log in to my account and log out of it when I want to.
+
+##### Sarah (Admin)
+
+Sarah works at DevConnect moderating the app making sure that users aren't having any issues, she doesn't have a profile but she has total control over the app, all users and all content using the Admin dashboard that she access through a specially assigned Admin account.
+
+###### As Sarah I want:
+
+- The right to edit, create and remove users from the database if they are posting inappropriate content, harassing other users or there is any issue with a users account.
+- The right to edit and remove posts and comments from the database if it has inappropriate content or is harassing another user.
+
+###### He should not:
+
+- Be able to edit other users profiles, posts, comments or likes.
+- Be able to remove other users profiles, posts, comments or likes.
+
+##### Robert (Non-Registered User)
+
+Robert is a new Developer studying Ruby on Rails looking to find a mentor or other new developers to connect with on a new project to show of his newly learnt skills.
+
+###### As Robert I want:
+
+- To see what other users are posting if I get sent a link to a post.
+- To see other users profiles, skills and previous experience.
+- A nice user interface that is easy for me to navigate on my tablet.
+- Easy access to the register page so if I decided to sign up I don't need to search for it.
+- To be able to sign up using my Google account or Github account.
+
+###### He should not:
+
+- Be able to interact with those posts he sees.
+- Connect with other users without being registered/logged in.
 
 ### Dataflow Diagram
 
