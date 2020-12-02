@@ -190,3 +190,5 @@ Robert is a new Developer studying Ruby on Rails looking to find a mentor or oth
 ### Applicatioin Architecture Diagram
 
 ![](/images/diagram-2.png)
+
+<a href="#top">Back to top</a>
