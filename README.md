@@ -93,37 +93,37 @@ The apps target demographic is professional developers. This includes anyone who
 
 <details>
   <summary><u>Collaboration</u>:</summary>
-  * Trello
-  * Slack
-  * Github
+  1. Trello
+  2. Slack
+  3. Github
 </details>
 
 <details>
   <summary><u>Frontend</u>:</summary>
-  * HTML5
-  * CSS
-  * Javascript
-  * React JS
-  * Gravatar
-  * Axios
+  1. HTML5
+  2. CSS
+  3. Javascript
+  4. React JS
+  5. Gravatar
+  6. Axios
 </details>
 
 <details>
   <summary><u>Encryption</u>:</summary>
-  * Bcrypt
+  1. Bcrypt
 </details>
 
 <details>
   <summary><u>Backend</u>:</summary>
-  * Express
-  * Node
-  * JSON Web Token
+  1. Express
+  2. Node
+  3. JSON Web Token
 </details>
 
 <details>
   <summary><u>Database</u>:</summary>
-  * Mongoose
-  * MongoDB
+  1. Mongoose
+  2. MongoDB
 </details>
 
 ## Wireframes
