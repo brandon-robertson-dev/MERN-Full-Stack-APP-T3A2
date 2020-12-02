@@ -132,3 +132,13 @@ The apps target demographic is professional developers. This includes anyone who
 
 ![](/images/Pallete-Gradient.png)
 ![](/images/Colour-Pallete2.png)
+
+### User Stories
+
+### Dataflow Diagram
+
+![](/images/diagram-1.png)
+
+### Applicatioin Architecture Diagram
+
+![](/images/diagram-2.png)
