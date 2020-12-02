@@ -20,6 +20,17 @@ Gone are the days of the stereotyped socially awkward developer. Developers are 
 
 ## Features
 
+<details><summary>User Authentication</summary>
+
+    1. Register
+    2. Login
+    3. Logout
+    4. Edit Profile ( if current user)
+    5. Delete Profile ( if current user)
+    6. Edit Posts ( if creator of post)
+
+</details>
+
 - #### <u>User Authentication:</u>
 
   - Register
@@ -84,7 +95,7 @@ The apps target demographic is professional developers. This includes anyone who
 
 ## Tech Stack
 
-<details><summary>Click for Design</summary>
+<details><summary>Design</summary>
 
     1. Framer
     2. Miro
@@ -103,33 +114,36 @@ The apps target demographic is professional developers. This includes anyone who
 <details>
   <summary>Frontend</summary>
 
-1. HTML5
-2. CSS
-3. Javascript
-4. React JS
-5. Gravatar
-6. Axios
+    1. HTML5
+    2. CSS
+    3. Javascript
+    4. React JS
+    5. Gravatar
+    6. Axios
+
 </details>
 
 <details>
   <summary>Encryption</summary>
 
-1. Bcrypt
+    1. Bcrypt
+
 </details>
 
 <details>
   <summary>Backend</summary>
 
-1. Express
-2. Node
-3. JSON Web Token
+    1. Express
+    2. Node
+    3. JSON Web Token
+
 </details>
 
 <details>
   <summary>Database</summary>
   
-  1. Mongoose
-  2. MongoDB
+    1. Mongoose
+    2. MongoDB
 </details>
 
 ## Wireframes
