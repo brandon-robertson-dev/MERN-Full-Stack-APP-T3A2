@@ -82,13 +82,13 @@ The apps target demographic is professional developers. This includes anyone who
 | Occupation         | Professional Developer / Student Developer |
 | Primary Language   | English                                    |
 
-## Tech Stack <summary>click to expand</summary>
+## Tech Stack
 
 <details><summary>Click for Design</summary>
 
-    * Framer
-    * Miro
-    * Lucid Chart
+    1. Framer
+    2. Miro
+    3. Lucid Chart
 
 </details>
 
@@ -101,29 +101,33 @@ The apps target demographic is professional developers. This includes anyone who
 </details>
 
 <details>
-  <summary><u>Frontend</u>:</summary>
-  1. HTML5
-  2. CSS
-  3. Javascript
-  4. React JS
-  5. Gravatar
-  6. Axios
+  <summary>Frontend</summary>
+
+1. HTML5
+2. CSS
+3. Javascript
+4. React JS
+5. Gravatar
+6. Axios
 </details>
 
 <details>
-  <summary><u>Encryption</u>:</summary>
-  1. Bcrypt
+  <summary>Encryption</summary>
+
+1. Bcrypt
 </details>
 
 <details>
-  <summary><u>Backend</u>:</summary>
-  1. Express
-  2. Node
-  3. JSON Web Token
+  <summary>Backend</summary>
+
+1. Express
+2. Node
+3. JSON Web Token
 </details>
 
 <details>
-  <summary><u>Database</u>:</summary>
+  <summary>Database</summary>
+  
   1. Mongoose
   2. MongoDB
 </details>
