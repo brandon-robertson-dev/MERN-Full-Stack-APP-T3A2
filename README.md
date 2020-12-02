@@ -9,6 +9,8 @@ A MERN FullStack application assignment by Brandon Robertson & Jessica Sole
 - [Target Audience](#target-audience)
 - [Tech Stack](#tech-stack)
 - [Wireframes](#wireframes)
+- [Mobile Prototype](#mobile-prototype)
+- [Colour Pallete](#app-colour-pallete)
 - [User Stories](#user-stories)
 - [Dataflow Diagram](#dataflow-diagram)
 - [Applicatioin Architecture Diagram](#applicatioin-architecture-diagram)
