@@ -196,6 +196,9 @@ Chester is an experienced Developer that wants to connect with his fellow co-wor
 
 ##### Sarah (Admin)
 
+<details>
+  <summary>Click to expand!</summary>
+
 Sarah works at DevConnect moderating the app making sure that users aren't having any issues, she doesn't have a profile but she has total control over the app, all users and all content using the Admin dashboard that she access through a specially assigned Admin account.
 
 ###### As Sarah I want:
@@ -203,10 +206,11 @@ Sarah works at DevConnect moderating the app making sure that users aren't havin
 - The right to edit, create and remove users from the database if they are posting inappropriate content, harassing other users or there is any issue with a users account.
 - The right to edit and remove posts and comments from the database if it has inappropriate content or is harassing another user.
 
-###### He should not:
+###### She should not:
 
 - Be able to edit other users profiles, posts, comments or likes.
 - Be able to remove other users profiles, posts, comments or likes.
+</details>
 
 ##### Robert (Non-Registered User)
 
