@@ -247,4 +247,6 @@ Robert is a new Developer studying Ruby on Rails looking to find a mentor or oth
 
 ### Project Management
 
+![](/images/trello2.png)
+
 <a href="#top">Back to top</a>
