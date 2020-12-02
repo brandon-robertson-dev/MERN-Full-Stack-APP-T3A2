@@ -33,20 +33,20 @@ Gone are the days of the stereotyped socially awkward developer. Developers are 
 
 <details><summary>Navigation</summary>
 
-1. When User is not logged in and registered the user can view:
+    1. When User is not logged in and registered the user can view:
 
-   - Developer Profiles
-   - Register Page
-   - Home Page
-   - Login Page
+    - Developer Profiles
+    - Register Page
+    - Home Page
+    - Login Page
 
-2. When user is signed in they can:
+    2. When user is signed in they can:
 
-   - Create Posts
-   - Edit Profiles
-   - Delete Profiles
-   - Delete Posts
-   - Access Dashboard
+    - Create Posts
+    - Edit Profiles
+    - Delete Profiles
+    - Delete Posts
+    - Access Dashboard
 
 </details>
 
@@ -59,31 +59,31 @@ Gone are the days of the stereotyped socially awkward developer. Developers are 
 
 <details><summary>Posts</summary>
 
-1. Display most current developer posts
-2. Users can:
+    1. Display most current developer posts
+    2. Users can:
 
-   - Like a post
-   - Reply to a post
-   - Delete a post
+    - Like a post
+    - Reply to a post
+    - Delete a post
 
-3. Most current replies are displayed on post
-4. User can leave a comment under the post
+    3. Most current replies are displayed on post
+    4. User can leave a comment under the post
 
 </details>
 
 <details><summary>Dashboard</summary>
 
-1. User can edit their info
-2. User can create a profile from this page
+    1. User can edit their info
+    2. User can create a profile from this page
 
 </details>
   ​
 <details><summary>Nice to Have Features</summary>
 
-1. Page to search and filter developers by name or skillset
-2. Add user as a friend or colleague
-3. Image Upload
-4. User can rate their experience working with a developer.
+    1. Page to search and filter developers by name or skillset
+    2. Add user as a friend or colleague
+    3. Image Upload
+    4. User can rate their experience working with a developer.
 
 </details>
 
