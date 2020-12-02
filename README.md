@@ -85,13 +85,16 @@ The apps target demographic is professional developers. This includes anyone who
 ## Tech Stack
 
 <details><summary>Click for Design</summary>
+
     * Framer
     * Miro
     * Lucid Chart
+
 </details>
 
 <details>
   <summary>Collaboration</summary>
+  
     1. Trello
     2. Slack
     3. Github
