@@ -181,6 +181,9 @@ The apps target demographic is professional developers. This includes anyone who
 
 ##### Chester (Registered User)
 
+<details>
+  <summary>Click to expand!</summary>
+
 Chester is an experienced Developer that wants to connect with his fellow co-workers outside of work and his other developer friends in his spare time.
 
 ###### As Chester I want:
@@ -193,6 +196,7 @@ Chester is an experienced Developer that wants to connect with his fellow co-wor
 - View my own profile and other users profiles.
 - Delete my profile, posts and user account if I no longer wish to be on the website anymore.
 - Log in to my account and log out of it when I want to.
+</details>
 
 ##### Sarah (Admin)
 
