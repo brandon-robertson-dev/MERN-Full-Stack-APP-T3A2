@@ -4,34 +4,15 @@ A MERN FullStack application assignment by Brandon Robertson & Jessica Sole
 
 # Table of Contents
 
-- [</>DevConnect](#---devconnect)
-  - [Purpose](#purpose)
-  - [Features](#features)
-    - [<u>User Authentication:</u>](#-u-user-authentication---u-)
-    - [<u>Navigation:</u>](#-u-navigation---u-)
-    - [<u>Profiles Page</u>:](#-u-profiles-page--u--)
-    - [<u>Posts</u>:](#-u-posts--u--)
-    - [<u>Dashboard</u>:](#-u-dashboard--u--)
-    - [<u>Nice To Have Features</u>:](#-u-nice-to-have-features--u--)
-  - [Target Audience](#target-audience)
-  - [Tech Stack](#tech-stack)
-  - [Wireframes](#wireframes)
-    - [Desktop & Site Navigation](#desktop---site-navigation)
-    - [Tablet View](#tablet-view)
-    - [Mobile View](#mobile-view)
-    - [Mobile Prototype](#mobile-prototype)
-    - [App Coulour Pallete](#app-coulour-pallete)
-    - [User Stories](#user-stories)
-      - [Chester (Registered User)](#chester--registered-user-)
-        - [As Chester I want:](#as-chester-i-want-)
-      - [Sarah (Admin)](#sarah--admin-)
-        - [As Sarah I want:](#as-sarah-i-want-)
-        - [He should not:](#he-should-not-)
-      - [Robert (Non-Registered User)](#robert--non-registered-user-)
-        - [As Robert I want:](#as-robert-i-want-)
-        - [He should not:](#he-should-not--1)
-    - [Dataflow Diagram](#dataflow-diagram)
-    - [Applicatioin Architecture Diagram](#applicatioin-architecture-diagram)
+- [Purpose](#purpose)
+- [Features](#features)
+- [Target Audience](#target-audience)
+- [Tech Stack](#tech-stack)
+- [Wireframes](#wireframes)
+- [User Stories](#user-stories)
+- [Dataflow Diagram](#dataflow-diagram)
+- [Applicatioin Architecture Diagram](#applicatioin-architecture-diagram)
+- [Project Management](#project-management)
 
 ## Purpose
 
@@ -221,5 +202,7 @@ Robert is a new Developer studying Ruby on Rails looking to find a mentor or oth
 ### Applicatioin Architecture Diagram
 
 ![](/images/diagram-2.png)
+
+### Project Management
 
 <a href="#top">Back to top</a>
