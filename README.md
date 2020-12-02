@@ -131,4 +131,4 @@ The apps target demographic is professional developers. This includes anyone who
 ### App Coulour Pallete
 
 ![](/images/Pallete-Gradient.png)
-![](/images/Coulour-Pallete2.png)
+![](/images/Colour-Pallete2.png)
