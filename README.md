@@ -85,42 +85,46 @@ The apps target demographic is professional developers. This includes anyone who
 ## Tech Stack
 
 <details>
-  <summary><u>**Design**</u>:</summary>
-  - Trello
-  - Framer
-  - Miro
-  - Lucid Chart
+  <summary><u>Design</u>:</summary>
+  * Framer
+  * Miro
+  * Lucid Chart
 </details>
 
-<u>**Collaboration**</u>:
+<details>
+  <summary><u>Collaboration</u>:</summary>
+  * Trello
+  * Slack
+  * Github
+</details>
 
-- Trello
-- Slack
-- Github
+<details>
+  <summary><u>Frontend</u>:</summary>
+  * HTML5
+  * CSS
+  * Javascript
+  * React JS
+  * Gravatar
+  * Axios
+</details>
 
-<u>**Frontend**</u>:
+<details>
+  <summary><u>Encryption</u>:</summary>
+  * Bcrypt
+</details>
 
-- HTML5
-- CSS
-- Javascript
-- React JS
-- Gravatar
-- Axios
+<details>
+  <summary><u>Backend</u>:</summary>
+  * Express
+  * Node
+  * JSON Web Token
+</details>
 
-<u>**Encryption**</u>:
-
-- Bcrypt JS
-
-<u>**Backend**</u>:
-
-- Express
-- Node
-- JSON Web Token
-
-<u>**Database**</u>:
-
-- Mongoose
-- MongoDB
+<details>
+  <summary><u>Database</u>:</summary>
+  * Mongoose
+  * MongoDB
+</details>
 
 ## Wireframes
 
@@ -202,7 +206,7 @@ Robert is a new Developer studying Ruby on Rails looking to find a mentor or oth
 
 ### Applicatioin Architecture Diagram
 
-![](/images/diagram-2.png)
+![](/images/diagram-3.png)
 
 ### Project Management
 
