@@ -2,6 +2,37 @@
 
 A MERN FullStack application assignment by Brandon Robertson & Jessica Sole
 
+# Table of Contents
+
+- [</>DevConnect](#---devconnect)
+  - [Purpose](#purpose)
+  - [Features](#features)
+    - [<u>User Authentication:</u>](#-u-user-authentication---u-)
+    - [<u>Navigation:</u>](#-u-navigation---u-)
+    - [<u>Profiles Page</u>:](#-u-profiles-page--u--)
+    - [<u>Posts</u>:](#-u-posts--u--)
+    - [<u>Dashboard</u>:](#-u-dashboard--u--)
+    - [<u>Nice To Have Features</u>:](#-u-nice-to-have-features--u--)
+  - [Target Audience](#target-audience)
+  - [Tech Stack](#tech-stack)
+  - [Wireframes](#wireframes)
+    - [Desktop & Site Navigation](#desktop---site-navigation)
+    - [Tablet View](#tablet-view)
+    - [Mobile View](#mobile-view)
+    - [Mobile Prototype](#mobile-prototype)
+    - [App Coulour Pallete](#app-coulour-pallete)
+    - [User Stories](#user-stories)
+      - [Chester (Registered User)](#chester--registered-user-)
+        - [As Chester I want:](#as-chester-i-want-)
+      - [Sarah (Admin)](#sarah--admin-)
+        - [As Sarah I want:](#as-sarah-i-want-)
+        - [He should not:](#he-should-not-)
+      - [Robert (Non-Registered User)](#robert--non-registered-user-)
+        - [As Robert I want:](#as-robert-i-want-)
+        - [He should not:](#he-should-not--1)
+    - [Dataflow Diagram](#dataflow-diagram)
+    - [Applicatioin Architecture Diagram](#applicatioin-architecture-diagram)
+
 ## Purpose
 
 Gone are the days of the stereotyped socially awkward developer. Developers are amongst the most active users of social networks. The purpose of this application is to create a space where developers can learn from colleagues, connect with local and non local developers and find solutions to problems. The application creates a network of like minded individuals that can be connected easily. This app caters to all levels of developer. This can be very useful for those who are starting their coding journey. It allows them to connect with a developer more senior for mentorship or advice. The vice versa is true, the app gives senior developers access to juniors for the intent of mentorship.By connecting developers in one platform the application makes it easier for these developers to find each other in one network. This eliminates the need to connect on different platforms for various reasons.
