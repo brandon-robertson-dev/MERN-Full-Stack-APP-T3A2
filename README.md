@@ -172,7 +172,7 @@ The apps target demographic is professional developers. This includes anyone who
 
 [App Prototype](https://framer.com/share/MERN-App--aOoctOf3oCSczjnL0RpE/qhjn1oSbM#qhjn1oSbM)
 
-### App Coulour Pallete
+### App Colour Pallete
 
 ![Colour Gradient](/images/Pallete-Gradient.png)
 ![Pallete](/images/Colour-Pallete2.png)
