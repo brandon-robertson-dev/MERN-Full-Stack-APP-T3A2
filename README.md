@@ -175,7 +175,7 @@ The apps target demographic is professional developers. This includes anyone who
 ![Colour Gradient](/images/Pallete-Gradient.png)
 ![Pallete](/images/Colour-Pallete2.png)
 
-### User Stories
+## User Stories
 
 ![](/images/chester.png)
 
