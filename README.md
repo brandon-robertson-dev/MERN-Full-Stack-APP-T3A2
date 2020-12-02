@@ -214,6 +214,9 @@ Sarah works at DevConnect moderating the app making sure that users aren't havin
 
 ##### Robert (Non-Registered User)
 
+<details>
+  <summary>Click to expand!</summary>
+
 Robert is a new Developer studying Ruby on Rails looking to find a mentor or other new developers to connect with on a new project to show of his newly learnt skills.
 
 ###### As Robert I want:
@@ -228,6 +231,7 @@ Robert is a new Developer studying Ruby on Rails looking to find a mentor or oth
 
 - Be able to interact with those posts he sees.
 - Connect with other users without being registered/logged in.
+</details>
 
 ### Dataflow Diagram
 
