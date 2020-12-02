@@ -84,7 +84,7 @@ The apps target demographic is professional developers. This includes anyone who
 
 ## Tech Stack
 
-<details><summary><u>Click for Design</u></summary>
+<details><summary>Click for Design</summary>
   **Design**
     * Framer
     * Miro
