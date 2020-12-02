@@ -241,11 +241,11 @@ Robert is a new Developer studying Ruby on Rails looking to find a mentor or oth
 
 ### Dataflow Diagram
 
-![](/images/diagram-1.png)
+![](/images/diagram-3.png)
 
 ### Applicatioin Architecture Diagram
 
-![](/images/diagram-3.png)
+![](/images/diagram-1.png)
 
 ### Project Management
 
