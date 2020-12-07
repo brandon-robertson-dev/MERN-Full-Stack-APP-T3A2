@@ -107,6 +107,7 @@ The apps target demographic is professional developers. This includes anyone who
     1. Framer
     2. Miro
     3. Lucid Chart
+    4. Typora
 
 </details>
 
@@ -151,6 +152,13 @@ The apps target demographic is professional developers. This includes anyone who
   
     1. Mongoose
     2. MongoDB
+</details>
+
+<details>
+  <summary>Testing</summary>
+  
+    1. Jest
+    2. Postman
 </details>
 
 ## Wireframes
@@ -250,5 +258,6 @@ Robert is an 18 years old male, full stack web developer student who lives in Br
 ### Project Management
 
 ![](/images/trello2.png)
+![](/images/trello3.png)
 
 <a href="#top">Back to top</a>
