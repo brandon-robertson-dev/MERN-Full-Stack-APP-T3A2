@@ -186,7 +186,7 @@ The apps target demographic is professional developers. This includes anyone who
 <details>
   <summary>Click to expand!</summary>
 
-Chester is an experienced Developer that wants to connect with his fellow co-workers outside of work and his other developer friends in his spare time.
+Chester is a 35 year old man, who lives in Burwood, New South Wales with his wife. Chester is an experienced developer that works at and owns Imaginary Enterprise, at his job he works with the MERN tech stack and wants to find another developer to join his team that is also familiar with the MERN tech stack. Because Chester is a busy person he expects a website to have a minimal UI, be fast and snappy, show lots of info and be able to sign up with his github account.
 
 ###### As Chester I want:
 
@@ -200,14 +200,14 @@ Chester is an experienced Developer that wants to connect with his fellow co-wor
 - Log in to my account and log out of it when I want to.
 </details>
 
-##### Sarah (Admin)
+##### Rianna (Admin)
 
 <details>
   <summary>Click to expand!</summary>
 
-Sarah works at DevConnect moderating the app making sure that users aren't having any issues, she doesn't have a profile but she has total control over the app, all users and all content using the Admin dashboard that she access through a specially assigned Admin account.
+Rianna is a 26 year old woman, who has been living in the heart of the city in Melbourne, Victoria with her cat for the past 6 years. She works at DevConnect and is an admin on the website because there are a lot of users on the DevConnect website she needs a quick and fast way to manage the website, it’s content and all the users. Because she is an admin on the website she expects to have a dashboard or a set of buttons that only show for the admin to have control over the website and database.
 
-###### As Sarah I want:
+###### As Rianna I want:
 
 - The right to edit, create and remove users from the database if they are posting inappropriate content, harassing other users or there is any issue with a users account.
 - The right to edit and remove posts and comments from the database if it has inappropriate content or is harassing another user.
@@ -223,7 +223,7 @@ Sarah works at DevConnect moderating the app making sure that users aren't havin
 <details>
   <summary>Click to expand!</summary>
 
-Robert is a new Developer studying Ruby on Rails looking to find a mentor or other new developers to connect with on a new project to show of his newly learnt skills.
+Robert is an 18 years old male, full stack web developer student who lives in Brisbane, Queensland with his friend who is his house mate. Robert attends Coder Academy learning Ruby on Rails and JavaScript, Robert wants to find other student developers that are learning Ruby on Rails to make some practice projects with and a mentor to help him learn JavaScript in his spare time. Because Robert is new to the developer scene he wants to be able to see a lot of information without having to sign up and be able to share content with his friends and class mates.
 
 ###### As Robert I want:
 
