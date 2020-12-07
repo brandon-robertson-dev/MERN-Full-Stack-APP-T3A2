@@ -10,10 +10,10 @@ A MERN FullStack application assignment by Brandon Robertson & Jessica Sole
 - [Tech Stack](#tech-stack)
 - [Wireframes](#wireframes)
 - [Mobile Prototype](#mobile-prototype)
-- [Colour Palette](#app-colour-pallete)
+- [Colour Palette](#app-colour-palette)
 - [User Stories](#user-stories)
 - [Dataflow Diagram](#dataflow-diagram)
-- [Application Architecture Diagram](#applicatioin-architecture-diagram)
+- [Application Architecture Diagram](#application-architecture-diagram)
 - [Project Management](#project-management)
 
 ## Purpose
