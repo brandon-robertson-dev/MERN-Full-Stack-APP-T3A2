@@ -10,10 +10,10 @@ A MERN FullStack application assignment by Brandon Robertson & Jessica Sole
 - [Tech Stack](#tech-stack)
 - [Wireframes](#wireframes)
 - [Mobile Prototype](#mobile-prototype)
-- [Colour Pallete](#app-colour-pallete)
+- [Colour Palette](#app-colour-palette)
 - [User Stories](#user-stories)
 - [Dataflow Diagram](#dataflow-diagram)
-- [Applicatioin Architecture Diagram](#applicatioin-architecture-diagram)
+- [Application Architecture Diagram](#application-architecture-diagram)
 - [Project Management](#project-management)
 
 ## Purpose
@@ -55,7 +55,7 @@ Gone are the days of the stereotyped socially awkward developer. Developers are 
 <details><summary>Profiles Page</summary>
 
     1. User can view a list of developer profiles
-    2. Indivdual developer profile displays on click of profile
+    2. Individual developer profile displays on click of profile
 
 </details>
 
@@ -82,7 +82,7 @@ Gone are the days of the stereotyped socially awkward developer. Developers are 
   ​
 <details><summary>Nice to Have Features</summary>
 
-    1. Page to search and filter developers by name or skillset
+    1. Page to search and filter developers by name or skill set
     2. Add user as a friend or colleague
     3. Image Upload
     4. User can rate their experience working with a developer.
@@ -180,10 +180,10 @@ The apps target demographic is professional developers. This includes anyone who
 
 [App Prototype](https://framer.com/share/MERN-App--aOoctOf3oCSczjnL0RpE/qhjn1oSbM#qhjn1oSbM)
 
-### App Colour Pallete
+### App Colour Palette
 
 ![Colour Gradient](/images/Pallete-Gradient.png)
-![Pallete](/images/Colour-Pallete2.png)
+![Palette](/images/Colour-Pallete2.png)
 
 ## User Stories
 
