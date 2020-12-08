@@ -15,6 +15,7 @@ A MERN FullStack application assignment by Brandon Robertson & Jessica Sole
 - [Dataflow Diagram](#dataflow-diagram)
 - [Applicatioin Architecture Diagram](#applicatioin-architecture-diagram)
 - [Project Management](#project-management)
+- [Presentation Slides](#presentation-slides)
 
 ## Purpose
 
@@ -259,5 +260,9 @@ Robert is an 18 years old male, full stack web developer student who lives in Br
 
 ![](/images/trello2.png)
 ![](/images/trello3.png)
+
+### Presentation Slides
+
+![Link to Slides](https://docs.google.com/presentation/d/1Ilpg9zWhl3zrdtA3sraoFqy4RXMGFioX5V6dDBEbrmE/edit?usp=sharing)
 
 <a href="#top">Back to top</a>
