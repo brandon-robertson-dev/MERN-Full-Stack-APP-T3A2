@@ -160,6 +160,7 @@ The apps target demographic is professional developers. This includes anyone who
   
     1. Jest
     2. Postman
+    3. Manual Testing
 </details>
 
 ## Wireframes
