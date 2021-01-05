@@ -1,0 +1,6 @@
+{
+  "mongoURI": "mongodb+srv://brandon:1234Bang@cluster0.5mwan.mongodb.net/socialmedia?retryWrites=true&w=majority",
+  "jwtSecret": "iAmTheGodOfRockAndRoll",
+  "githubClientId": "2757e98ed7e3b19d3c40",
+  "githubSecret": "c769ff03924db2d60b092fa2f61ae330f67171dc"
+}
