@@ -2,11 +2,11 @@ const { validationResult } = require('express-validator')
 const jwt = require('jsonwebtoken')
 const config = require('config')
 const jwtToken = config.get('jwtSecret')
+const bcrypt = require('bcryptjs')
 
 const {
   findUserByIdForLogin,
   findUserByEmail,
-  comparePasswords,
 } = require('../utilities/auth_utilities')
 
 function login(req, res) {
@@ -37,7 +37,7 @@ async function authenticateUserGetToken(req, res) {
       }
     }
 
-    const isMatch = await comparePasswords(password, user.password)
+    const isMatch = await bcrypt.compare(password, user.password)
     if(!isMatch) {
       return res.status(400).json({ errors: [{ msg: 'Invalid credentials' }] })
     }
