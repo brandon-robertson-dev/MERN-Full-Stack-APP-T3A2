@@ -1,5 +1,6 @@
 const express = require('express')
 const router = express.Router()
+const { check } = require('express-validator')
 const {
   registerUserToDatabase,
   
@@ -21,3 +22,5 @@ router.post('/register',
   ],
   registerUserToDatabase
 )
+
+module.exports = router
