@@ -9,9 +9,9 @@ const {
   findUserByEmail,
 } = require('../utilities/auth_utilities')
 
-function login(req, res) {
+async function login(req, res) {
   try {
-    const user = findUserByIdForLogin(req.user.id)
+    const user = await findUserByIdForLogin(req.user.id)
     res.json(user)
   } catch(err) {
     console.log(err.message)
@@ -27,7 +27,7 @@ async function authenticateUserGetToken(req, res) {
 
   const { email, password } = req.body
   try{
-    let user = await findUserByEmail({ email })
+    let user = await findUserByEmail(email)
     if(!user) {
       return res.status(400).json({ errors: [{ msg: 'Invalid credentials' }] })
     }
