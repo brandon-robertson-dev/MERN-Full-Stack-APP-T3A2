@@ -4,8 +4,8 @@ const { check } = require('express-validator')
 const {
   login,
   authenticateUserGetToken
-} = require('../../controllers/auth_controllers')
-const auth = require('../../middleware/auth')
+} = require('../controllers/auth_controllers')
+const auth = require('../middleware/auth')
 
 // LOGS IN USER
 // PUBLIC
