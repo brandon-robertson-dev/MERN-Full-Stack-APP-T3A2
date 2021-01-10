@@ -5,7 +5,7 @@ function findUserByIdForLogin(id) {
 }
 
 function findUserByEmail(email) {
-  return User.findOne(email)
+  return User.findOne({ email })
 }
 
 module.exports = {
