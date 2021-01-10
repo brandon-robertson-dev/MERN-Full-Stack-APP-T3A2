@@ -1,0 +1,57 @@
+REGISTER
+{
+  "firstname": "",
+  "lastname": "",
+  "email": "",
+  "password": ""
+}
+
+LOGIN
+{
+  "email" : "",
+  "password": ""
+}
+
+CREATE PROFILE
+{
+  "company" : "",
+  "status" : "",
+  "website" : "",
+  "skills" : "",
+  "location" : "",
+  "bio" : "",
+  "githubusername" : "",
+  "twitter" : "",
+  "facebook" : "",
+  "youtube" : "",
+}
+
+EXPERIENCE
+{
+  "title" : "",
+  "company" : "",
+  "location" : "",
+  "from" : "",
+  "current" : true,
+  "description": ""
+}
+
+EDUCATION
+{
+  "school" : "",
+  "degree" : "",
+  "fieldofstudy" : "",
+  "from" : "",
+  "current" : true,
+  "description": ""
+}
+
+MAKE A POST
+{
+  "text": ""
+}
+
+MAKE A COMMENT
+{
+  "text": ""
+}
