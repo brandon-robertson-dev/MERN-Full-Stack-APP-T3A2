@@ -1,9 +1,9 @@
 const express = require('express')
 const connectDB = require('./config/db')
-const userRoutes = require('./routes/api/users')
-const authRoutes = require('./routes/api/auth')
-const profileRoutes = require('./routes/api/profile')
-const postRoutes = require('./routes/api/posts')
+const userRoutes = require('./routes/users')
+const authRoutes = require('./routes/auth')
+const profileRoutes = require('./routes/profile')
+const postRoutes = require('./routes/posts')
 
 const app = express()
 
