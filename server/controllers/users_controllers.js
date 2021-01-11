@@ -18,7 +18,7 @@ async function registerUserToDatabase(req, res) {
   
     const { firstname, lastname, email, password } = req.body
     try{
-      let user = await findUserByEmail({ email })
+      let user = await findUserByEmail(email)
       if(user) {
         return res.status(400).json({ errors: [{ msg: 'User already exists' }] })
       }
