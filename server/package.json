@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server",
-    "server": "nodemon server"
+    "server": "nodemon server",
+    "client": "cd ../ && npm start --prefix ./client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "author": "Brandon Robertson & Jessica Sole",
   "license": "ISC",
