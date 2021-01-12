@@ -3,13 +3,12 @@ const router = express.Router()
 const { check } = require('express-validator')
 const {
   registerUserToDatabase,
-  
-} = require('../controllers/users_controllers')
+} = require('../../controllers/users_controllers')
 
 // REGISTERS A USER TO THE DATABASE
 // PUBLIC
 
-router.post('/register', 
+router.post('/', 
   [
     check('firstname', 'First name is Required').not().isEmpty(),
     check('lastname', 'Last name is Required').not().isEmpty(),
