@@ -1,7 +1,7 @@
 const express = require('express')
 const router = express.Router()
 const { check } = require('express-validator')
-const auth = require('../middleware/auth')
+const auth = require('../../middleware/auth')
 
 const {
   createPost,
@@ -12,7 +12,7 @@ const {
   unlikePost,
   createComment,
   deleteComment
-} = require('../controllers/posts_controllers')
+} = require('../../controllers/posts_controllers')
 
 // CREATE A POST
 // PRIVATE

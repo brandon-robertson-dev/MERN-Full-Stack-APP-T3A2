@@ -1,6 +1,6 @@
 const express = require('express')
 const router = express.Router()
-const auth = require('../middleware/auth')
+const auth = require('../../middleware/auth')
 const { check } = require('express-validator')
 
 const {
@@ -14,7 +14,7 @@ const {
   addEducation,
   deleteEducation,
   getReposGithub
-} = require('../controllers/profile_controllers')
+} = require('../../controllers/profile_controllers')
 
 // GET LOGGED IN USER PROFILE
 // PRIVATE
@@ -34,7 +34,7 @@ createUpdateProfile)
 
 // GET ALL PROFILES
 // PUBLIC
-router.get('/all', getAllProfiles)
+router.get('/', getAllProfiles)
 
 // GET PROFILE BY ID
 // PUBLIC

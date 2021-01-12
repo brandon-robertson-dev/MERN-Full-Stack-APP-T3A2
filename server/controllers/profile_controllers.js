@@ -1,4 +1,7 @@
 const { validationResult } = require('express-validator')
+const config = require('config')
+const gitClient = config.get('githubClientId"')
+const gitSecret = config.get('githubSecret')
 
 const {
   findProfileByIdPop,
