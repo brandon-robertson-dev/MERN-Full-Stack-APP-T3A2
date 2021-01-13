@@ -70,7 +70,7 @@ async function createUpdateProfile(req, res) {
   try{
     let profile = await findProfileByIdFull(req.user.id)
     if(profile) {
-      profile = await findByIdUpdate(req.user.id)
+      profile = await findByIdUpdate(req.user.id, profileFields)
       return res.json(profile)
     }
     profile = new Profile(profileFields)
