@@ -2,6 +2,7 @@ import {
     GET_PROFILE,
     PROFILE_ERROR,
     UPDATE_PROFILE,
+    CLEAR_PROFILE
   } from '../actions/types';
 
 const initialState = {
@@ -30,6 +31,12 @@ export default function (state = initialState, action) {
             loading: false,
             profile: null
         };
+        case CLEAR_PROFILE:
+            return {
+              ...state,
+              profile: null,
+              repos: []
+            };
         default:
             return state;
 }
