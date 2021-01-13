@@ -16,7 +16,7 @@ const {
 
 async function getLoggedInUser(req, res) {
   try {
-    const profile = await findProfileById(req.user.id)
+    const profile = await findProfileByIdFull(req.user.id)
     if(!profile) {
       return res.status(400).json({ msg: 'There is no profile for this user' })
     }
