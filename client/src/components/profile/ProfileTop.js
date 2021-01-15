@@ -7,7 +7,7 @@ const ProfileTop = ({ profile: {
       location,
       website,
       social,
-      user: { name, avatar }
+      user: { firstname, avatar }
     }
   }) => {
       return (
@@ -17,7 +17,7 @@ const ProfileTop = ({ profile: {
            src={avatar}
            alt=""
          />
-         <h1 class="large">{name}</h1>
+         <h1 class="large">{firstname}</h1>
          <p class="lead">{status} {company ? <span> at {company}</span> : null}</p>
          <p>{location && <span>{location}</span>}</p>
          <div class="icons my-1">
