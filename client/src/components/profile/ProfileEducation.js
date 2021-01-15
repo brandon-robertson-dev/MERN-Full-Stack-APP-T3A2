@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import Moment from 'react-moment';
 
 const ProfileEducation = ({ 
-    education: {school, degree, fieldofstudy }
+    education: {school, degree, fieldofstudy, from, to, description }
 })=> {
     return (
         <div>
@@ -12,13 +12,13 @@ const ProfileEducation = ({
                 <Moment format='YYYY/MM/DD'>{from}</Moment> - {!to ? ' Now' : <Moment format='YYYY/MM/DD'>{to}</Moment>}
             </p>
             <p>
-                <strong>Degree: </strong> {title}
+                <strong>Degree: </strong> {degree}
             </p>
             <p>
-                <strong>Description: </strong> {title}
+                <strong>Description: </strong> {description}
             </p>
             <p>
-                <strong>Field of Study: </strong> {description}
+                <strong>Field of Study: </strong> {fieldofstudy}
             </p>
         </div>
     )
