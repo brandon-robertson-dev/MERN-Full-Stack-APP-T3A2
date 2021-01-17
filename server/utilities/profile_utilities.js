@@ -8,8 +8,8 @@ function findProfileByIdFull(id) {
   return Profile.findOne({ user: id })
 }
 
-function findByIdUpdate(id) {
-  return Profile.findOneAndUpdate({ user: id }, { $ser: profileFields }, { new: true })
+function findByIdUpdate(id, updatedProfile) {
+  return Profile.findOneAndUpdate({ user: id }, { $set: updatedProfile }, { new: true })
 }
 
 function findAllPop() {

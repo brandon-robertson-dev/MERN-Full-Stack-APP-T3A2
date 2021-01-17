@@ -1,6 +1,6 @@
 const { validationResult } = require('express-validator')
 const config = require('config')
-const gitClient = config.get('githubClientId"')
+const gitClient = config.get('githubClientId')
 const gitSecret = config.get('githubSecret')
 
 const {
@@ -16,7 +16,7 @@ const {
 
 async function getLoggedInUser(req, res) {
   try {
-    const profile = await findProfileById(req.user.id)
+    const profile = await findProfileByIdFull(req.user.id)
     if(!profile) {
       return res.status(400).json({ msg: 'There is no profile for this user' })
     }
@@ -70,7 +70,7 @@ async function createUpdateProfile(req, res) {
   try{
     let profile = await findProfileByIdFull(req.user.id)
     if(profile) {
-      profile = await findByIdUpdate(req.user.id)
+      profile = await findByIdUpdate(req.user.id, profileFields)
       return res.json(profile)
     }
     profile = new Profile(profileFields)
