@@ -13,7 +13,7 @@ function findByIdUpdate(id, updatedProfile) {
 }
 
 function findAllPop() {
-  return Profile.find().populate('user', ['name', 'avatar'])
+  return Profile.find().populate('user', ['firstname', 'lastname', 'avatar'])
 }
 
 function findAndRemoveProfile(id) {
