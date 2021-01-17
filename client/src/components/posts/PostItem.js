@@ -39,9 +39,11 @@ const PostItem =({  addLike, removeLike, deletePost, auth, post: { _id, text, fi
             onClick={() => deletePost(_id)}
             type="button" 
             class="btn btn-danger">
-              Delete
+              <i class="fas fa-times"></i>
             </button>
-          )}
+
+            )}
+
           </div>
         </div>
 )
