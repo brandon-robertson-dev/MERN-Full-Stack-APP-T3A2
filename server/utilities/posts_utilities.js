@@ -8,7 +8,12 @@ function findPostsById(id) {
   return Post.findById(id)
 }
 
+function findAndRemoveAllUserPosts(id) {
+  return Post.deleteMany({ user: id })
+}
+
 module.exports = {
   getPostsSorted,
-  findPostsById
+  findPostsById,
+  findAndRemoveAllUserPosts
 }

@@ -1,12 +1,15 @@
 /* Global Styles */
 :root {
-  --primary-color: #17a2b8;
-  --dark-color: #343a40;
-  --light-color: #f4f4f4;
+  --primary-color: #2E86C1;
+  --hover-color: #BFBFBF;
+  --dark-color: #0A54FF;
+  --light-color: #E6EFEF;
   --danger-color: #dc3545;
   --success-color: #28a745;
 }
-
+/* 17a2b8 */
+/* 343a40 */
+/* f4f4f4 */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -323,7 +326,7 @@ button {
 }
 
 .navbar a:hover {
-  color: var(--primary-color);
+  color: var(--hover-color);
 }
 
 .navbar .welcome span {

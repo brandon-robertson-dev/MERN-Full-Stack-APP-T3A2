@@ -42,7 +42,7 @@ async function authenticateUserGetToken(req, res) {
     }
     jwt.sign(
       payload,
-      jwtToken,
+      `${jwtToken}`,
       { expiresIn: 360000 },
       (err, token) => {
         if(err) throw err

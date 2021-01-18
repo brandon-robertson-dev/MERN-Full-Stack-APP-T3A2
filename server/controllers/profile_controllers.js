@@ -13,6 +13,9 @@ const {
 const {
   findAndRemoveUser
 } = require('../utilities/users_utilities')
+const {
+  findAndRemoveAllUserPosts
+} = require('../utilities/posts_utilities')
 
 async function getLoggedInUser(req, res) {
   try {
@@ -32,20 +35,7 @@ async function createUpdateProfile(req, res) {
   if(!errors.isEmpty()) {
     return res.status(400).json({ errors: errors.array() })
   }
-  const {
-    company,
-    website,
-    location,
-    bio,
-    status,
-    githubusername,
-    skills,
-    youtube,
-    facebook,
-    twitter,
-    instagram,
-    linkedin
-  } = req.body
+  const { company, website, location, bio, status, githubusername, skills, youtube, facebook, twitter, instagram, linkedin } = req.body
 
   const profileFields = {
     user: req.user.id,
@@ -108,6 +98,7 @@ async function getUserById(req, res) {
 
 async function deleteProfile(req, res) {
   try{
+    await findAndRemoveAllUserPosts(req.user.id)
     await findAndRemoveProfile(req.user.id)
     await findAndRemoveUser(req.user.id)
     res.json({ msg: 'User deleted' })
@@ -122,24 +113,8 @@ async function addExperience(req, res) {
   if(!errors.isEmpty()) {
     return res.status(400).json({ errors: errors.array() })
   }
-  const {
-    title,
-    company,
-    location,
-    from,
-    to,
-    current,
-    description
-  } = req.body
-  const newExp = {
-    title,
-    company,
-    location,
-    from,
-    to,
-    current,
-    description
-  }
+  const { title, company, location, from, to, current, description } = req.body
+  const newExp = { title, company, location, from, to, current, description }
   try {
     const profile = await findProfileByIdFull(req.user.id)
     profile.experience.unshift(newExp)
@@ -169,24 +144,8 @@ async function addEducation(req, res) {
   if(!errors.isEmpty()) {
     return res.status(400).json({ errors: errors.array() })
   }
-  const {
-    school,
-    degree,
-    fieldofstudy,
-    from,
-    to,
-    current,
-    description
-  } = req.body
-  const newEdu = {
-    school,
-    degree,
-    fieldofstudy,
-    from,
-    to,
-    current,
-    description
-  }
+  const { school, degree, fieldofstudy, from, to, current, description } = req.body
+  const newEdu = { school, degree, fieldofstudy, from, to, current, description }
   try {
     const profile = await findProfileByIdFull(req.user.id)
     profile.education.unshift(newEdu)
