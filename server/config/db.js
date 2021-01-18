@@ -1,9 +1,10 @@
 const mongoose = require('mongoose')
-const db = process.env.MONGOURI
+const user = process.env.MONGOUSER
+const pass = process.env.MONGOPASS
 
 const connectDB = async () => {
   try {
-    await mongoose.connect(db, {
+    await mongoose.connect(`mongodb+srv://${user}:${pass}@cluster0.5mwan.mongodb.net/socialmedia?retryWrites=true&w=majority`, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
       useCreateIndex: true,

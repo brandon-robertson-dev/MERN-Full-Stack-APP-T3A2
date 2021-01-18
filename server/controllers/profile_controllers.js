@@ -64,24 +64,6 @@ async function createUpdateProfile(req, res) {
       instagram: instagram
     }
   }
-  // profileFields.user = req.user.id
-  // if (company) profileFields.company = company
-  // if (website) profileFields.website = website
-  // if (location) profileFields.location = location
-  // if (bio) profileFields.bio = bio
-  // if (status) profileFields.status = status
-  // if (githubusername) profileFields.githubusername = githubusername
-  // if (skills !== null) {
-  //   profileFields.skills = skills.split(',').map(skill => skill.trim())
-  // }
-  
-  // profileFields.social = {}
-
-  // if (youtube) profileFields.social.youtube = youtube
-  // if (twitter) profileFields.social.twitter = twitter
-  // if (facebook) profileFields.social.facebook = facebook
-  // if (linkedin) profileFields.social.linkedin = linkedin
-  // if (instagram) profileFields.social.instagram = instagram
 
   try{
     let profile = await findProfileByIdFull(req.user.id)
