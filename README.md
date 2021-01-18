@@ -261,6 +261,11 @@ Robert is an 18 years old male, full stack web developer student who lives in Br
 
 ![](/images/trello2.png)
 ![](/images/trello3.png)
+![](/images/trello4.png)
+![](/images/trello5.png)
+![](/images/trello6.png)
+![](/images/trello7.png)
+![](/images/trello8.png)
 
 ### Presentation Slides
 
