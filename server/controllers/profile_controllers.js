@@ -46,7 +46,7 @@ async function createUpdateProfile(req, res) {
     instagram,
     linkedin
   } = req.body
-
+  
   const profileFields = {}
   profileFields.user = req.user.id
   if (company) profileFields.company = company
@@ -56,7 +56,7 @@ async function createUpdateProfile(req, res) {
   if (status) profileFields.status = status
   if (githubusername) profileFields.githubusername = githubusername
   if (skills) {
-    profileFields.skills = skills.split(',').map(skill => skill.trim())
+    profileFields.skills = skills
   }
   
   profileFields.social = {}
