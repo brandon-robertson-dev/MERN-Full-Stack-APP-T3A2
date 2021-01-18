@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const ProfileItem = ({
     profile: {
-      user: { _id, firstname, avatar },
+      user: { _id, firstname, lastname, avatar },
       status,
       company,
       location,

@@ -18,7 +18,7 @@ const CommentItem = ({
       <Link to={`/profile/${user}`}>
         <img
           class="round-img"
-          src="https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=200"
+          src={avatar}
           alt=""
         />
         <h4>{name}</h4>
@@ -32,7 +32,7 @@ const CommentItem = ({
           Posted on <Moment format='YYYY/MM/DD'> {date} </Moment>
       </p>
       {!auth.loading && user === auth.user._id && (
-          <button onCLick={e => deleteComment(postId, _id)} type="button" className="btn btn-danger">
+          <button onClick={e => deleteComment(postId, _id)} type="button" className="btn btn-danger">
               <i className="fas fa-times"></i>
           </button>
       )}

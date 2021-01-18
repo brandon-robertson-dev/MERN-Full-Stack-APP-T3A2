@@ -2,8 +2,7 @@ const User = require('../models/User')
 const gravatar = require('gravatar')
 const bcrypt = require('bcryptjs')
 const jwt = require('jsonwebtoken')
-const config = require('config')
-const jwtToken = config.get('jwtSecret')
+const jwtToken = process.env.JWTSECRET
 const { validationResult } = require('express-validator')
 
 const {

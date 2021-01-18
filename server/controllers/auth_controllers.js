@@ -1,7 +1,6 @@
 const { validationResult } = require('express-validator')
 const jwt = require('jsonwebtoken')
-const config = require('config')
-const jwtToken = config.get('jwtSecret')
+const jwtToken = process.env.JWTSECRET
 const bcrypt = require('bcryptjs')
 
 const {

@@ -1,7 +1,6 @@
 const { validationResult } = require('express-validator');
-const config = require('config');
-const gitClient = config.get('githubClientId');
-const gitSecret = config.get('githubSecret');
+const gitClient = process.env.GITHUBCLIENT
+const gitSecret = process.env.GITHUBSECRET
 const request = require('request');
 
 const {

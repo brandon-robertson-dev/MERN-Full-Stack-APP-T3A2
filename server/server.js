@@ -1,3 +1,4 @@
+require('dotenv').config()
 const express = require('express')
 const connectDB = require('./config/db')
 const userRoutes = require('./routes/api/users')
@@ -10,8 +11,6 @@ const app = express()
 connectDB()
 
 app.use(express.json({ extended: false }))
-
-app.get('/', (req, res) => res.send('API Running'))
 
 app.use('/api/users', userRoutes)
 app.use('/api/auth', authRoutes)
