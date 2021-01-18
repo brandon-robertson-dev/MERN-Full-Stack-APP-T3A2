@@ -2,7 +2,7 @@ import React, { Fragment, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-// import DashboardActions from './DashboardActions';
+import DashboardActions from './DashboardActions';
 // import Experience from './Experience';
 // import Education from './Education';
 import Spinner from '../layout/Spinner';
@@ -17,16 +17,21 @@ const Dashboard = ({
   }) => {
     useEffect(() => {
       getCurrentProfile();
-    }, [getCurrentProfile]);
-    return loading && profile === null ? <Spinner /> : <Fragment>
+    }, []);
+
+    return loading && profile === null ? (
+    <Spinner />
+    ) : (
+    <Fragment>
       <h1 className="large text-primary">Dashboard</h1>
       <p className="lead">
         <i className="fas fa-user" /> Welcome {user && user.firstname}
       </p>
       {profile !== null ? (
-      <Fragment>has</Fragment>) :(
-      
-      
+      <Fragment>
+          <DashboardActions/>
+      </Fragment>
+      ) : (
       <Fragment>
       <p>You have not yet setup a profile, please add some info</p>
           <Link to="/create-profile" className="btn btn-primary my-1">
@@ -34,7 +39,8 @@ const Dashboard = ({
           </Link>
       </Fragment>
       )}
-     </Fragment>;
+     </Fragment>
+    );
 };
 
 Dashboard.propTypes = {
