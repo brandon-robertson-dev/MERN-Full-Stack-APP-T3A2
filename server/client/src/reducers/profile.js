@@ -17,7 +17,7 @@ const initialState = {
 
 export default function (state = initialState, action) {
     const { type, payload } = action;
-
+  
     switch (type) {
         case GET_PROFILE:
         case UPDATE_PROFILE:
@@ -26,12 +26,12 @@ export default function (state = initialState, action) {
             profile: payload,
             loading: false
           };
-          case GET_PROFILES:
-            return {
-              ...state,
-              profiles: payload,
-              loading: false
-            };
+        case GET_PROFILES:
+          return {
+            ...state,
+            profiles: payload,
+            loading: false
+          };
         case PROFILE_ERROR:
         return {
             ...state,

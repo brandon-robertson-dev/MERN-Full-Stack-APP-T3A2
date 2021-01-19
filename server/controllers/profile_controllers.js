@@ -73,6 +73,7 @@ async function createUpdateProfile(req, res) {
 async function getAllProfiles(req, res) {
   try{
     const profiles = await findAllPop()
+    console.log(profiles)
     res.json(profiles)
   } catch(err) {
     console.log(err.message)
