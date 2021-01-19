@@ -43,6 +43,7 @@ export const register = ({ firstname, lastname, email, password }) => async disp
             type: REGISTER_SUCCESS,
             payload: res.data
         });
+        dispatch(loadUser())
     }catch (err) {
         const errors = err.response.data.errors;
 
@@ -53,8 +54,6 @@ export const register = ({ firstname, lastname, email, password }) => async disp
         dispatch ({
             type: REGISTER_FAIL
         });
-
-        dispatch(loadUser())
     }
 }
 
@@ -92,7 +91,6 @@ export const login = (  email, password ) => async dispatch => {
 
 // Logout / Clear Profile
 export const logout = () => dispatch =>{
-     dispatch({type: CLEAR_PROFILE}) 
-     dispatch({type: LOGOUT });
-    
+    dispatch({type: CLEAR_PROFILE}) 
+    dispatch({type: LOGOUT });
 };
